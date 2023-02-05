@@ -1,0 +1,32 @@
+.bodys {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    margin: 0;
+}
+
+.containers{
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 300px;
+}
+
+form{
+    padding: 15px 30px;
+}
+
+input, textarea{
+    border: solid 2px #f0f0f0;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    display: block;
+    width: 100%;
+}
